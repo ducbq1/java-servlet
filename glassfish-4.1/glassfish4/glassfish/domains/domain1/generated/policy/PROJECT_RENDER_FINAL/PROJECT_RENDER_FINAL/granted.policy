@@ -1,0 +1,25 @@
+/* AUTOMATICALLY GENERATED ON Mon Nov 11 21:12:05 ICT 2019*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "MyUtils", "**";
+  permission javax.security.jacc.WebRoleRefPermission "DeleteProductServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "HomeServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "EncodingFilter", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+  permission javax.security.jacc.WebRoleRefPermission "CreateProductServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "LoginServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "ManagerTask", "**";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "ProductListServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "LogoutServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "EditProductServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "UserInforServlet", "**";
+};
+

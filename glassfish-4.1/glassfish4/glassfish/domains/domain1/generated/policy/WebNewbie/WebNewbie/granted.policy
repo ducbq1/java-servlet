@@ -1,0 +1,20 @@
+/* AUTOMATICALLY GENERATED ON Thu Nov 28 10:14:24 ICT 2019*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "CategoryServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "ProductServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "UserServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "LogoutServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "IndexServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "CartServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+};
+

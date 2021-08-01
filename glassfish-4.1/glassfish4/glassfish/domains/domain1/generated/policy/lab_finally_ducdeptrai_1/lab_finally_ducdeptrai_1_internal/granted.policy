@@ -1,0 +1,17 @@
+/* AUTOMATICALLY GENERATED ON Fri Nov 29 00:27:20 ICT 2019*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "ProductSessionBean", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "ProductSessionBean", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "ProductSessionBean", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProductSessionBean", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProductSessionBean", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "ProductSessionBean", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProductSessionBean", "find,Local,java.lang.Object";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "ProductSessionBean", "**";
+};
+

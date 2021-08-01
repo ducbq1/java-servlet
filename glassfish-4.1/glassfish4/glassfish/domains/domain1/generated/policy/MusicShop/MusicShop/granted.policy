@@ -1,0 +1,32 @@
+/* AUTOMATICALLY GENERATED ON Wed Nov 27 20:19:12 ICT 2019*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebResourcePermission "/";
+  permission javax.security.jacc.WebUserDataPermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "ContactServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "LogoutAdminServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "NewsletterServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "CartServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "ManagerBrandServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "UploadProductServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+  permission javax.security.jacc.WebRoleRefPermission "CheckOutServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "CheckEmailServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "ManagerCategoryServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "UserServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "ChartServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "AdminUserServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "InsertProductServletx", "**";
+  permission javax.security.jacc.WebRoleRefPermission "LogoutServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "ManagerProductServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "DeliveryServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "InsertProductServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "ReviewServlet", "**";
+};
+
